@@ -3,9 +3,9 @@
 cask "bigtext-app" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.10.0"
-  sha256 arm:   "2b6d37c7375da3fe27d6c5aa70d72d6e5de35ad56841500e52c98fa2b5351c38",
-         intel: "298d7c074910dfde9d7ba7ba8854a6adfe21527202e84eaeac8c07a14db8ef6f"
+  version "0.11.0"
+  sha256 arm:   "f3b3b21a6b00a08107fd4147200545720ca3de16f5467f4754769f2a777f6057",
+         intel: "18d8f42c7f3a038e5f6135744fb59b04b8504c0932e6ab8374f1c12d883422cd"
 
   url "https://github.com/Erkinbek/bigtext/releases/download/v#{version}/bigtext-macos-#{arch}.app.zip"
   name "BigText"
