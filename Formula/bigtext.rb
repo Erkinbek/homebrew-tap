@@ -4,24 +4,24 @@
 class Bigtext < Formula
   desc "Text editor for huge files that never freezes"
   homepage "https://erkinbek.github.io/bigtext/"
-  version "0.11.0"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Erkinbek/bigtext/releases/download/v#{version}/bigtext-macos-arm64.tar.gz"
-      sha256 "feb1d0d1fcc0cfe8a4d61d290bf0317f65fef6e7dfcf637e96019df77c25845e"
+      sha256 "c7d7910295fa81f7aa453aab2b083ce6983a7c9c9bbb7f7bfed3dbf56e84df9a"
     end
     on_intel do
       url "https://github.com/Erkinbek/bigtext/releases/download/v#{version}/bigtext-macos-x64.tar.gz"
-      sha256 "7f1a1af9412ae620628860d588f1164c784b36c88198731757ab04bafc0e27d1"
+      sha256 "a02172a14d9c2e2026da1bafe86503eff5a7ee1b87060aa25ab32ebd181675a0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Erkinbek/bigtext/releases/download/v#{version}/bigtext-linux-x64.tar.gz"
-      sha256 "1722d39042c8b31edb07513aa03976601863567f009c1a11799991d7fe3baeae"
+      sha256 "0eb8b1755fa222f1681961c19b948292a90049bc2ffb9b8f28b95d5486c50b33"
     end
   end
 
