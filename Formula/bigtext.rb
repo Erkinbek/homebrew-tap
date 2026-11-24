@@ -4,24 +4,24 @@
 class Bigtext < Formula
   desc "Text editor for huge files that never loads them into memory"
   homepage "https://erkinbek.github.io/bigtext/"
-  version "0.12.0"
+  version "0.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Erkinbek/bigtext/releases/download/v#{version}/bigtext-macos-arm64.tar.gz"
-      sha256 "c7d7910295fa81f7aa453aab2b083ce6983a7c9c9bbb7f7bfed3dbf56e84df9a"
+      sha256 "83a54a2b5f6689c2eaf04f3ea4504090faf3bec8b299140a3d4c15c8a0b17837"
     end
     on_intel do
       url "https://github.com/Erkinbek/bigtext/releases/download/v#{version}/bigtext-macos-x64.tar.gz"
-      sha256 "a02172a14d9c2e2026da1bafe86503eff5a7ee1b87060aa25ab32ebd181675a0"
+      sha256 "c518cb982257d67daad03ed23b42c7d6b6c560b5d2e60485ed23e964b638c67c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Erkinbek/bigtext/releases/download/v#{version}/bigtext-linux-x64.tar.gz"
-      sha256 "0eb8b1755fa222f1681961c19b948292a90049bc2ffb9b8f28b95d5486c50b33"
+      sha256 "3f6dba5a2d5600919c06b2171cb88d03de1852701f8aff2739e144903c789606"
     end
   end
 
